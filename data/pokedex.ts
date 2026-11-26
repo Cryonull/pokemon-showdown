@@ -21145,7 +21145,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Magmantle",
 		types: ["Fire","Dark"],
 		genderRatio: { M: 0.875, F: 0.125 },
-		baseStats: { hp: 65, atk: 62, def: 42, spa: 126, spd: 141, spe: 100 },
+		baseStats: { hp: 65, atk: 62, def: 42, spa: 126, spd: 140, spe: 100 },
 		abilities: { 0: "Blaze", H: "Flash Fire" },
 		heightm: 1.5,
 		weightkg: 1.1,
