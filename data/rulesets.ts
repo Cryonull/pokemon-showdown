@@ -22,7 +22,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		desc: "Moe stuff",
 		ruleset: [
 			'Obtainable', 'Sleep Clause Mod', 'Evasion Items Clause', 'Evasion Moves Clause', 'Team Preview', 'HP Percentage Mod', 
-			'Cancel Mod', 'Endless Battle Clause', '+CAP', '+Etherian',
+			'Cancel Mod', 'Endless Battle Clause', '+Etherian',
 		],
 	},
 	standard: {
