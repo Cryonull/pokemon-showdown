@@ -224,6 +224,10 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "AG",
 		speciesFilter: species => species.tier === 'AG' || species.tier === '(AG)',
 	},
+	etheria: {
+		name: "Etheria Tier",
+		speciesFilter: species => species.isNonstandard === 'Etherian',
+	},
 
 	// Doubles tiers
 	// -------------
@@ -331,6 +335,7 @@ export const Tags: { [id: IDEntry]: TagData } = {
 	etherian: {
 		name: "Etherian",
 		genericFilter: thing => thing.isNonstandard === 'Etherian',
+	},
 
 	// filter columns
 	// --------------
@@ -392,4 +397,4 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "Max PP",
 		moveNumCol: move => move.pp,
 	},
-}
+};
