@@ -328,6 +328,9 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "Nonexistent",
 		genericFilter: thing => !!thing.isNonstandard && thing.isNonstandard !== 'Unobtainable',
 	},
+	etherian: {
+		name: "Etherian",
+		genericFilter: thing => thing.isNonstandard === 'Etherian',
 
 	// filter columns
 	// --------------

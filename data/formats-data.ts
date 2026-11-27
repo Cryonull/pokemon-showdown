@@ -6252,4 +6252,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	terroot: {
+		tier: "LC",
+	},
+	geminirt: {
+		tier: "NFE",
+	},
+	gaiarth: {
+		tier: "OU",
+		doublesTier: "(DOU)",
+		natDexTier: "OU",
+	},
 };
