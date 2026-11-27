@@ -26,6 +26,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "S/V Singles",
 	},
 	{
+		name: "Etherian OU",
+		mod: 'gen9',
+		ruleset: ['[Gen 9] OU', '+Etherian'],
+		banlist: ['Crucibellite', 'Rage Fist'],
+	},
+	{
 		name: "[Gen 9] Random Battle",
 		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
