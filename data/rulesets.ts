@@ -16,6 +16,15 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			'Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause',
 		],
 	},
+	etheria: {
+		effectType: 'ValidatorRule',
+		name: 'Etheria',
+		desc: "Moe stuff",
+		ruleset: [
+			'Sleep Clause Mod', 'Evasion Items Clause', 'Evasion Moves Clause', 'Team Preview', 'HP Percentage Mod', 
+			'Cancel Mod', 'Endless Battle Clause', '+CAP', '+Etherian',
+		],
+	},
 	standard: {
 		effectType: 'ValidatorRule',
 		name: 'Standard',

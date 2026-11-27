@@ -26,10 +26,24 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "S/V Singles",
 	},
 	{
-		name: "Etherian OU",
+		name: "[Gen 9] Etheria OU",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] OU', '+Etherian'],
 		banlist: ['Crucibellite', 'Rage Fist'],
+	},
+	{
+		name: "[Gen 9] MoE Free-For-All",
+		mod: 'gen9',
+		gameType: 'freeforall',
+		rated: false,
+		tournamentShow: false,
+		ruleset: ['Etheria', '!Sleep Clause Mod', '!Evasion Items Clause'],
+		banlist: [
+			'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Dialga', 'Dialga-Origin', 'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 
+			'Groudon', 'Ho-Oh', 'Koraidon', 'Kyogre', 'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings',
+			'Necrozma-Dusk-Mane', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Reshiram', 'Solgaleo', 'Spectrier', 'Zacian', 'Zacian-Crowned',
+			'Zekrom', 'Moody', 'Shadow Tag', 'Toxic Debris', 'Baton Pass', 'Toxic Spikes'
+		],
 	},
 	{
 		name: "[Gen 9] Random Battle",
