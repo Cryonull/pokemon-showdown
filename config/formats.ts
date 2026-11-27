@@ -28,7 +28,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Etheria OU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] OU', '+Etherian'],
+		ruleset: ['NatDex Mod', '[Gen 9] OU', '+Etherian'],
 		banlist: ['Crucibellite', 'Rage Fist'],
 	},
 	{
@@ -37,12 +37,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'freeforall',
 		rated: false,
 		tournamentShow: false,
-		ruleset: ['Etheria', '!Sleep Clause Mod', '!Evasion Items Clause'],
+		ruleset: ['NatDex Mod', 'Etheria', '!Sleep Clause Mod', '!Evasion Items Clause'],
 		banlist: [
 			'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Dialga', 'Dialga-Origin', 'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 
 			'Groudon', 'Ho-Oh', 'Koraidon', 'Kyogre', 'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings',
 			'Necrozma-Dusk-Mane', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Reshiram', 'Solgaleo', 'Spectrier', 'Zacian', 'Zacian-Crowned',
-			'Zekrom', 'Moody', 'Shadow Tag', 'Toxic Debris', 'Baton Pass', 'Toxic Spikes'
+			'Zekrom', 'Moody', 'Shadow Tag', 'Toxic Debris', 'Baton Pass', 'Spikes', 'Stealth Rock', 'Toxic Spikes'
 		],
 	},
 	{
