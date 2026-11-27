@@ -392,4 +392,4 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "Max PP",
 		moveNumCol: move => move.pp,
 	},
-};
+}
