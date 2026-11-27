@@ -37,7 +37,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'freeforall',
 		rated: false,
 		tournamentShow: false,
-		ruleset: ['NatDex Mod', 'Etheria', '!Sleep Clause Mod', '!Evasion Items Clause'],
+		ruleset: ['+Unobtainable', '+Past', 'Sketch Post-Gen 7 Moves', 'Etheria', '!Sleep Clause Mod', '!Evasion Items Clause'],
 		banlist: [
 			'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Dialga', 'Dialga-Origin', 'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 
 			'Groudon', 'Ho-Oh', 'Koraidon', 'Kyogre', 'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings',
