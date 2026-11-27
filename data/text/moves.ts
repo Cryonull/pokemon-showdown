@@ -7715,7 +7715,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		},
 	},
 	gravitywell: {
-		name: "Spirit Shackle",
+		name: "Gravity Well",
 		desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
 		shortDesc: "Prevents the target from switching out.",
 	},
